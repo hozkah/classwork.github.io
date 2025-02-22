@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="greet()">
+    <div class="button-container">
+        <button onclick="alert('Hello! Am Oscar')">Click me</button>
+        <button onclick="toggleText()">Change Text</button>
+        <button id="click">Internal Js Click</button>
+    </div>
 
+    <p id="text">This is My first In-class HTML, CSS and JavaScript.</p>
+    
+    <div class="color-controls">
+        <input type="text" id="colorInput" placeholder="Enter a color">
+        <button onclick="changeBackground()">Change Background</button>
+        <input type="color" id="colorPicker" value="#00ffff">
+        <div id="errorMsg" class="error-message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
