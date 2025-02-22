@@ -4,7 +4,7 @@ function greet() {
 
 const buttonId = document.getElementById('click');
 buttonId.onclick = function() {
-    alert("Button was clicked.");
+    alert("Just clicked Internal Js");
 }
 
 buttonId.onmouseover = function() {
